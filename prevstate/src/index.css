@@ -1,0 +1,27 @@
+body {
+  background: papayawhip;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+button {
+  min-height: 48px;
+  min-width: 48px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
